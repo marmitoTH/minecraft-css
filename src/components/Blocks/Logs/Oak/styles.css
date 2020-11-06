@@ -1,0 +1,16 @@
+.oak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.oak .top, .oak .bottom {
+  background: url('../../../../assets/textures/logs/oak/top.png');
+  background-size: cover;
+}
+
+.oak .front, .oak .back, .oak .left, .oak .right {
+  background: url('../../../../assets/textures/logs/oak/side.png');
+  background-size: cover;
+}

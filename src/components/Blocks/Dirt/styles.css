@@ -1,0 +1,11 @@
+.dirt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.dirt .top, .dirt .bottom, .dirt .left, .dirt .right, .dirt .front, .dirt .back {
+  background: url('/src/assets/textures/dirt/all.png');
+  background-size: cover;
+}

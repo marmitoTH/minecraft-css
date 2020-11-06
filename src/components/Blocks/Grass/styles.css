@@ -1,0 +1,21 @@
+.grass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.grass .top {
+  background: url('../../../assets/textures/grass/top.png');
+  background-size: cover;
+}
+
+.grass .bottom {
+  background: url('../../../assets/textures/grass/bottom.png');
+  background-size: cover;
+}
+
+.grass .left, .grass .right, .grass .front, .grass .back {
+  background: url('../../../assets/textures/grass/side.png');
+  background-size: cover;
+}

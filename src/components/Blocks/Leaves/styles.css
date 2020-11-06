@@ -1,0 +1,11 @@
+.leaves {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.leaves .top, .leaves .bottom, .leaves .left, .leaves .right, .leaves .front, .leaves .back {
+  background: url('../../../assets/textures/leaves/side.png');
+  background-size: cover;
+}

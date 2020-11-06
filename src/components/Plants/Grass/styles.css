@@ -1,0 +1,10 @@
+.plant-grass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plant-grass .blade1, .plant-grass .blade2 {
+  background: url('/src/assets/textures/plants/grass/00.png');
+  background-size: cover;
+}

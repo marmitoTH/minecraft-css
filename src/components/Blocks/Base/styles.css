@@ -1,0 +1,36 @@
+.cube {
+  width: 20rem;
+  height: 20rem;
+}
+
+.cube .face {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  backface-visibility: hidden;
+  /*background: linear-gradient(45deg, pink, hotpink);*/
+}
+
+.cube .top {
+  transform: translateY(-10rem) rotateX(90deg);
+}
+
+.cube .bottom {
+  transform: translateY(10rem) rotateX(-90deg);
+}
+
+.cube .right {
+  transform: translateX(10rem) rotateY(90deg);
+}
+
+.cube .left {
+  transform: translateX(-10rem) rotateY(-90deg);
+}
+
+.cube .front {
+  transform: translateZ(10rem);
+}
+
+.cube .back {
+  transform: translateZ(-10rem) rotateY(180deg);
+}

@@ -1,0 +1,18 @@
+@keyframes rotate {
+  from {
+    transform: translateY(0rem) rotateY(-30deg);
+  }
+
+  to {
+    transform: translateY(-5rem) rotateY(30deg);
+  }
+}
+
+.rotator {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  animation: rotate 5s infinite alternate;
+}

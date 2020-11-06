@@ -1,0 +1,18 @@
+.plant {
+  width: 20rem;
+  height: 20rem;
+}
+
+.plant .face {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+
+.plant .blade1 {
+  transform: rotateY(45deg);
+}
+
+.plant .blade2 {
+  transform: rotateY(-45deg);
+}

@@ -1,0 +1,16 @@
+.birch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.birch .top, .birch .bottom {
+  background: url('../../../../assets/textures/logs/betula/top.png');
+  background-size: cover;
+}
+
+.birch .front, .birch .back, .birch .left, .birch .right {
+  background: url('../../../../assets/textures/logs/betula/side.png');
+  background-size: cover;
+}

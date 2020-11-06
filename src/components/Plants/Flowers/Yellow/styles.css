@@ -1,0 +1,10 @@
+.plant-flower-yellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plant-flower-yellow .blade1, .plant-flower-yellow .blade2 {
+  background: url('/src/assets/textures/plants/flowers/01.png');
+  background-size: cover;
+}

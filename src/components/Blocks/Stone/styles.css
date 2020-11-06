@@ -1,0 +1,11 @@
+.stone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.stone .top, .stone .bottom, .stone .left, .stone .right, .stone .front, .stone .back {
+  background: url('/src/assets/textures/stone/all.png');
+  background-size: cover;
+}

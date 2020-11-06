@@ -1,0 +1,10 @@
+.plant-flower-red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plant-flower-red .blade1, .plant-flower-red .blade2 {
+  background: url('/src/assets/textures/plants/flowers/00.png');
+  background-size: cover;
+}
