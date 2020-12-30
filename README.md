@@ -1,8 +1,12 @@
 <p align='center'>
   <h2 align='center'>Minecraft CSS</h2>
   <p align='center'>
-    <img src="https://img.shields.io/badge/Frontend-React-blue?style=flat-square&link=https://reactjs.org/">
-    <img src="https://img.shields.io/badge/Lucas-social-green?logo=linkedin&style=social&link=https://www.linkedin.com/in/lucas-rodrigues-985918197/">
+    <a href='https://reactjs.org' target='__blank'>
+        <img src="https://img.shields.io/badge/Frontend-React-blue?style=flat-square&link=https://reactjs.org">
+    </a>
+    <a href='https://www.linkedin.com/in/lucas-rodrigues-985918197' target='__blank'>
+        <img src="https://img.shields.io/badge/Lucas-social-green?logo=linkedin&style=social&link=https://www.linkedin.com/in/lucas-rodrigues-985918197">
+    </a>
   </p>
 </p>
 
